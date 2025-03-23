@@ -19,5 +19,15 @@ from django.urls import path ,include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',include("recipe.urls"))
+    path('',include("recipe.urls")),
+    path('users/',include('rest_framework.urls'),name='auth'),
+    
 ]
+
+
+
+
+
+admin.site.index_title = "Recipes"
+admin.site.site_header ="Recipe management"
+admin.site.site_title = "Restaulearn Cooking class"
