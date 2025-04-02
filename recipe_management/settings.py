@@ -134,6 +134,8 @@ LOGIN_URL = 'rest_framework:login'
 LOGOUT_URL = 'rest_framework:logout'
 LOGOUT_REDIRECT_URL = 'rest_framework:login'
 
+ALLOWED_HOSTS = ['*']
+
 REST_FRAMEWORK = {
     'DEFAULT_FILTER_BACKENDS': (
         'django_filters.rest_framework.DjangoFilterBackend',
