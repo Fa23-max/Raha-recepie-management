@@ -134,7 +134,7 @@ LOGIN_URL = 'rest_framework:login'
 LOGOUT_URL = 'rest_framework:logout'
 LOGOUT_REDIRECT_URL = 'rest_framework:login'
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['joseph0001.pythonanywhere.com']
 
 REST_FRAMEWORK = {
     'DEFAULT_FILTER_BACKENDS': (
